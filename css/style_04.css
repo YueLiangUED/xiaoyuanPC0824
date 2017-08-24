@@ -1,0 +1,112 @@
+body {
+    background-color: #fff;
+}
+.lq-header {
+    padding: 20px 0 ;
+    background-color: #eeeeee;
+    line-height: 1.5em;
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+    font-weight: 700;
+}
+.lq-title {
+    padding: 15px 0;
+    background-color: #3c9bed;
+    font-size: 22px;
+    color: #fff;
+}
+.lq-title-box {
+    width: 800px;
+    margin: 0 auto;
+}
+.lq-title-name,
+.lq-title-jihuoma {
+    float: left;
+    text-align: center;
+}
+.lq-title-name {
+    width: 270px;
+}
+.lq-title-jihuoma {
+    width: 300px;
+}
+.lq-list {
+    background-color: #fff;
+}
+.lq-item {
+    width: 800px;
+    min-height: 80px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.lq-item .name,
+.lq-item .jihuoma,
+.lq-item .copy-btn {
+    display: table-cell;
+    vertical-align: middle;
+    height: 80px;
+    text-align: center;
+    color: #999;
+}
+.lq-item .name {
+    width: 270px;
+}
+.lq-item .jihuoma {
+    width: 300px;
+    font-size: 18px;
+    word-break: break-all;
+}
+.lq-item .copy-btn {
+    width: 230px;
+}
+.copy-btn a {
+    display: inline-block;
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    color: #0185cf;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #0185cf;
+    border-radius: 5px;
+}
+.video-name,
+.video-quan {
+    display: block;
+}
+.video-name {
+    font-size: 18px;
+}
+.video-quan {
+     font-size: 14px;
+}
+.shuoming {
+    background-color: #f9f9f9;
+    color: #999999;
+    padding-bottom: 28px;
+}
+.shuoming-item {
+    width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.shuoming-title {
+    border-left: 3px solid #3c9bed;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    padding-left: 7px;
+    margin-top: 17px;
+}
+.shuoming-content {
+    margin-top: 10px;
+    line-height: 1.8em;
+    font-size: 16px;
+}
+.shuoming-content a {
+    color: #999999;
+}
+.shuoming-content a:hover {
+    text-decoration: underline;
+}

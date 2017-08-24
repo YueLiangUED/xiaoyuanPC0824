@@ -1,0 +1,124 @@
+body {
+    background-color: #afebff;
+}
+.video-wrap {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.video-wrap .title {
+    margin-bottom: 15px;
+}
+.card_group {
+    width: 990px;
+    margin: 0 auto;
+}
+.card_group span {
+    float: left;
+    width: 180px;
+    height: 78px;
+    margin: 9px;
+    background-image: url("../images/yhq-group.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.card_group span.besttv {
+    background-position: 0 0;
+}
+.card_group span.pptv {
+    background-position: -180px 0;
+}
+.card_group span.monguotv {
+    background-position: -360px 0;
+}
+.card_group span.mb-7 {
+    background-position: -541px 0;
+}
+.card_group span.mb-30 {
+    background-position: -721px 0;
+}
+.card_group span.mb-1 {
+    background-position: -901px 0;
+}
+.card_group span.souhu {
+    background-position: -1082px 0;
+}
+.card_group span.aiqiyi {
+    background-position: -1262px 0;
+}
+.card_group span.tengxun {
+    background-position: -1443px 0;
+}
+.card_group span.leshi {
+    background-position: -1624px 0;
+}
+/*已领取样式*/
+.card_group span.besttv.lq {
+    background-position: 0 -78px;
+}
+.card_group span.pptv.lq  {
+    background-position: -182px -78px;
+}
+.card_group span.monguotv.lq  {
+    background-position: -364px -78px;
+}
+.card_group span.mb-7.lq  {
+    background-position: -546px -78px;
+}
+.card_group span.mb-30.lq  {
+    background-position: -730px -78px;
+}
+.card_group span.mb-1.lq  {
+    background-position: -910px -78px;
+}
+.card_group span.souhu.lq  {
+    background-position: -1092px -78px;
+}
+.card_group span.aiqiyi.lq  {
+    background-position: -1274px -78px;
+}
+.card_group span.tengxun.lq  {
+    background-position: -1456px -78px;
+}
+.card_group span.leshi.lq  {
+    background-position: -1638px -78px;
+}
+.tip {
+    width: 972px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+    color: #0041e7;
+}
+.look-btn {
+    display: block;
+    width: 148px;
+    height: 47px;
+    margin: 30px auto 0;
+    background: url("../images/btn_bg_01.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.shuoming {
+    margin-top: 20px;
+}
+.shuoming-title {
+    font-size: 20px;
+    color: #0041e7;
+}
+.shuoming-content {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #0041e7;
+}
+.shuoming-content-title {
+    display: block;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+.shuoming-content p {
+    padding-left: 5px;
+}

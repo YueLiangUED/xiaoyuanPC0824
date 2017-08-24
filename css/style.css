@@ -1,0 +1,344 @@
+@charset "utf-8";
+body {
+    background-color: #afeaff;
+}
+.w-1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.w-880 {
+    width: 880px;
+    margin: 0 auto;
+}
+.index-wrapper {
+    min-width: 1000px;
+}
+/* 波浪 */
+.bolang_01 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 79px;
+    height: 48px;
+    background-image: url("../images/bolang.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.bolang_02 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 79px;
+    height: 48px;
+    background-image: url("../images/bolang.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.bolang_03 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 79px;
+    height: 48px;
+    background-image: url("../images/bolang.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+/* 主页头部 */
+.header{
+    width: 100%;
+}
+.banner {
+    width: 100%;
+}
+.banner img {
+    display: block;
+    width: 100%;
+}
+.logo-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1000px;
+    margin-left: -500px;
+}
+.logo {
+    display: block;
+    width: 102px;
+    height: 84px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat; 
+}
+.logo h1 {
+    text-indent: -9999px;
+}
+
+/* 新老生切换按钮 */
+.change-btns {
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+.change-btn-box {
+    width: 338px;
+    height: 34px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid #2294ff;
+    border-radius: 30px;
+    color: #2294ff;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.change-btns {
+    background-image: url("../images/title_bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.change-btn {
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 34px;
+    cursor: default;
+}
+.change-btn.act {
+    background-color: #2294ff;
+    color: #fff;
+}
+/* 旋转卡片 */
+.card-rotate {
+    position: relative;
+    height: 211px;
+    background-image: url("../images/icon_02.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.card-rotate a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 341px;
+    height: 210px;
+    margin-left: -170px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.card-rotate a.card_left {
+    transform: scale(0.82) translate(-338px, 0);
+    -ms-transform: scale(0.82) translate(-338px, 0);
+    -webkit-transform: scale(0.82) translate(-338px, 0);
+}
+.card-rotate a.card_right {
+    transform: scale(0.82) translate(338px, 0);
+    -ms-transform: scale(0.82) translate(338px, 0);
+    -webkit-transform: scale(0.82) translate(338px, 0);
+}
+.card-rotate a.card_middle {
+    transform: scale(1) translate(0);
+    -ms-transform: scale(1) translate(0);
+    -webkit-transform: scale(1) translate(0);
+}
+.card-rotate-bg01 {
+    position: absolute;
+    top: -20px;
+    left: 140px;
+    width: 159px;
+    height: 60px;
+    background-image: url("../images/icon_01.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 100;
+}
+.card-rotate-bg02 {
+    position: absolute;
+    top: -20px;
+    right: 140px;
+    width: 159px;
+    height: 60px;
+    background-image: url("../images/icon_01.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 100;
+}
+.link-now {
+    width: 840px;
+    margin: 0 auto;
+    padding: 0 80px;
+    text-align: right;
+}
+.link-now a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #006dff;
+}
+/* 标题设置 */
+.title-h3 {
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.title-h3 img {
+    display: block;
+    margin: 0 auto;
+}
+/* 新生特权设置 */
+.newStudentPrivilege {
+    margin-top: 10px;
+}
+.newStudentPrivilege .title-h3 {
+    top: -15px;
+}
+.newStudentPrivilege-content .top-bg,
+.newStudentHot-content .top-bg {
+    width: 100%;
+    height: 61px;
+    background-image: url("../images/topBg_01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.newStudentPrivilege-content .bottom-bg {
+    width: 100%;
+    height: 50px;
+    background-image: url("../images/bottomBg_01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.newStudentPrivilege-middle {
+    background-color: #6fd9ff;
+}
+.newStudentPrivilege-content li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.newStudentPrivilege-content li.noMarginRight {
+    margin-right: 0;
+}
+.newStudentPrivilege-content a,
+.newStudentPrivilege-content a img {
+    display: block;
+    width: 205px;
+    height: 116px;
+}
+/* 手机终端 */
+.newStudentPhoneSell .title-h3 {
+    top: -68px;
+}
+.newStudentPhoneSell {
+    margin-top: 35px;
+}
+.newStudentPhoneSell-content a {
+    display: block;
+    width: 878px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.newStudentPhoneSell-content a img {
+    display: block;
+    width: 100%;
+}
+/* 热门推荐 */
+.newStudentHot {
+    margin-top: 40px;
+}
+.newStudentHot .title-h3 {
+    top: -25px;
+    background-image: url("../images/icon_02.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.newStudentHot-content-middle {
+    padding-top: 20px;
+    background-color: #6fd9ff;
+}
+.newStudentHot-box {
+    width: 880px;
+    margin: 0 auto;
+}
+.newStudentHot-box .erweima-box {
+    width: 50%;
+    text-align: center;
+}
+.erweima-box span {
+    display: block;
+    line-height: 1.5em;
+}
+.erweima-box img {
+    margin-top: 5px;
+}
+.erweima-box h4 {
+    font-size: 18px;
+    color: #fc587b;
+    font-weight: 700;
+}
+.erweima-box .font-14 {
+    font-size: 14px;
+    color: #fc587b;
+}
+.erweima-box .font-12 {
+    font-size: 12px;
+    color: #0041e7;
+}
+.newStudentHot-content .bottom-bg {
+    width: 100%;
+    height: 43px;
+    background-image: url("../images/index-footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* 老生部分 */
+.oldStudent-pack200 {
+    background-image: url("../images/icon_02.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.oldStudent-pack200 a {
+    display: block;
+    width: 930px;
+    margin: 0 auto;
+}
+.oldStudent-pack200 a img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+/* 老生特权 */
+.oldStudentPrivilege {
+    margin-top: 50px;
+}
+.oldStudentPrivilege .title-h3 {
+    top: -35px;
+}
+.oldStudentPrivilege-content .top-bg {
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/topBg_02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.oldStudentPrivilege-middle {
+    padding: 10px 0;
+    background-color: #6fd9ff;
+}
+.oldStudentPrivilege-content li {
+    float: left;
+    margin-right: 20px;
+}
+.oldStudentPrivilege-content li.noMarginRight {
+    margin-right: 0;
+}
+.oldStudentPrivilege-content li a,
+.oldStudentPrivilege-content li a img {
+    display: block;
+    width: 205px;
+    height: 116px;
+}
+.oldStudentPrivilege-content .bottom-bg {
+    width: 100%;
+    height: 24px;
+    background-image: url("../images/bottomBg_02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

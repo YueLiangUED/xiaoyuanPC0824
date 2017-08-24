@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 页面编码 -->
+    <meta charset="UTF-8">
+    <!-- 页面渲染方式 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 页面适配说明 -->
+    <meta name="applicable-device" content="pc">
+    <!-- 页面自适应标签 -->
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- seo：增加关键词 -->
+    <meta name="keywords" content="">
+    <!-- seo：增加描述 -->
+    <meta name="description" content="">
+    <!-- 页面样式 -->
+    <link rel="stylesheet" type="text/css" href="css/reset-pc.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_02.css">
+    <!-- 用户行为追踪脚本 -->
+    <script type="text/javascript" src="http://search.10086.cn/js/web/webtrends.min.js "></script>
+    <script type="text/javascript" src="http://search.10086.cn/js/web/sdc_search.js"></script>
+    <!-- 页面操作脚本 -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <title>校园专区-中国移动-尊享特权</title>
+</head>
+<body>
+    <!-- html代码开始 -->
+    <div class="zunxiang-wrap pr">
+        <div class="zunxiang">
+            <div class="title">
+                <img src="images/title_05.png" alt="尊享特权" />
+            </div>
+            <div class="card_group clearfix">
+                <span class="tongxue_01" ></span>
+                <span class="tongxue_02" ></span>
+                <span class="shipin" ></span>
+                <span class="ofo" ></span>
+                <span class="zhongqinglv" ></span>
+                <span class="zhongguoyinhang" ></span>
+                <span class="meituan" ></span>
+                <span class="weihuishou" ></span>
+            </div>
+        </div>
+        <!-- 波浪 -->
+        <div class="bolang_01"></div>
+        <div class="bolang_02"></div>
+    </div>
+    <!-- 遮罩层 -->
+    <div class="mask" id="mask"></div>
+    <!-- 资格验证弹窗 -->
+    <div class="modal phone-validate none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">资格验证</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="请输入您的手机号">
+            </div>
+            <div class="modal-footer">
+                <button type="button">立即验证</button>
+            </div>
+        </div>
+    </div>
+    <!-- 视频特权验证弹窗 -->
+    <div class="modal video-validate none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">视频特权</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <div class="video-body">
+                    <input class="phoneInput pa" type="text" placeholder="请输入您的手机号">
+                    <input class="numInput pa" type="text" placeholder="请输入验证码">
+                    <span class="getNumBtn pa" type="button">获取验证码</span>
+                </div>
+                <p class="tip">* 同种权益兑换码同一用户只能取1次，且最多可取3种权益兑换码</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button">立即验证</button>
+            </div>
+        </div>
+    </div>
+    <!-- 资格验证失败弹窗 -->
+    <div class="modal validate-fail none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">提示</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_03.png" alt="资格验证失败">
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 资格验证成功弹窗 -->
+    <div class="modal validate-success none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">提示</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_04.png" alt="资格验证成功">
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 同学圈优惠 -->
+    <div class="modal modal-classmate none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">同学圈优惠</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_05.png" alt="同学圈优惠">
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- ofo小黄车弹窗 -->
+    <div class="modal modal-ofo none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">ofo</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_07.png" alt="ofo业务说明">
+                <img class="erweimaImg" src="images/ofo-er.png" alt="ofo二维码">
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 中青旅弹窗 -->
+    <div class="modal modal-zql none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">中青旅</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_08.png" alt="中青旅业务规则">
+                <img class="erweimaImg" src="images/zql-er.png" alt="中青旅二维码">
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 中国银行弹窗 -->
+    <div class="modal modal-ccb none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">中国银行</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_06.png" alt="中国银行办理详情">
+                <div class="ccb-rule">
+                    <span class="ccb-rule-title">活动规则<i class="icon-v"></i></span>
+                    <p>
+                        线上购买北京移动爱@U卡、2017和4G校园卡的新生用户，凭线上购卡回执，到指定大学的移动校园厅店中国银行办卡处，办理信用卡并领取礼品。请申办信用卡的学生携带身份证、录取通知书等材料。
+                    </p>
+                    <h5>移动校园厅学校列表：</h5>
+                    <ul>
+                        <li>北京大学医学部</li>
+                        <li>北京第二外国语学院</li>
+                        <li>北京服装学院（昌平校区）</li>
+                        <li>北京工业大学</li>
+                        <li>北京工业大学（通州校区）</li>
+                        <li>北京航空航天大学</li>
+                        <li>北京航空航天大学（昌平校区）</li>
+                        <li>北京化工大学</li>
+                        <li>北京化工大学（南口校区）</li>
+                        <li>北京建筑工程大学</li>
+                        <li>北京交通大学</li>
+                        <li>北京科技大学</li>
+                        <li>北京理工大学</li>
+                        <li>北京联合大学</li>
+                        <li>北京林业大学</li>
+                        <li>北京师范大学</li>
+                        <li>北京石油化工学院</li>
+                        <li>北京印刷学院</li>
+                        <li>北京邮电大学</li>
+                        <li>北京邮电大学（昌平校区）</li>
+                        <li>北京邮电大学沙河校区</li>
+                        <li>北京中医药大学</li>
+                        <li>北京中医药大学（良乡校区）</li>
+                        <li>对外经济贸易大学</li>
+                        <li>华北电力大学</li>
+                        <li>清华大学</li>
+                        <li>首都师范大学（良乡校区）</li>
+                        <li>中国传媒大学</li>
+                        <li>中国矿业大学（昌平校区）</li>
+                        <li>中国农业大学（东校区）</li>
+                        <li>中国人民大学</li>
+                        <li>中国石油大学</li>
+                        <li>中国政法大学</li>
+                        <li>中央财经大学（昌平校区）</li>
+                        <li>中央民族大学</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 美团弹窗 -->
+    <div class="modal modal-mt none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">美团</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_09.png" alt="美团业务规则">
+                <img class="erweimaImg" src="images/meituan-er.png" alt="美团二维码">
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- 微回收弹窗 -->
+    <div class="modal modal-whs none">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-title-text">微回收</span>
+                <i class="modal-close"></i>
+            </div>
+            <div class="modal-body">
+                <img src="images/modalBody_10.png" alt="微回收业务规则">
+                <img class="erweimaImg" src="images/whs-er.png" alt="微回收二维码">
+                <div class="whs-rule">
+                    <h5>操作流程</h5>
+                    <p>
+                    A）扫描活动二维码（详见附件内）<br>
+                    B）在线估价并下单<br>
+                    C） 快递员上门取件、免费邮寄<br>
+                    D） 检测完成后打手机回收款至微信账户<br>
+                    E） 打款后3个工作日内发放现金红包至微信账户<br>
+                    </p>
+                    <h5>活动规则</h5>
+                    <p>
+                    ·  即日起-10月31日活动期间，在微回收平台下单且成功卖手机就可获得5-188元现金红包。<br>
+                    ·  最终成交价10-29元，可获得5元；<br>
+                    ·  最终成交价30-99元，可获得15元；<br>
+                    ·  最终成交价100-499元，可获得25元；<br>
+                    ·  最终成交价500-999元，可获得50元；<br>
+                    ·  最终成交价1000-1999元，可获得80元；<br>
+                    ·  最终成交价2000元及以上，可获得188元；<br>
+                    ·  “红包”将于成功卖出后3个工作日内发放至用户的微信账户。<br>
+                    ·  “成功卖出”是指您提交回收订单、邮寄手机、完成机况确认并收到回收款。<br>
+                    ·  “最终成交价”特指单笔订单成交价，不累计。<br>
+                    ·  活动期间同一自然人仅限领取一次红包，若有多比订单按首笔订单计算。<br>
+                    （用户下单之后微回收都会为用户推送微回收的客服电话）
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button">确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- html代码结束 -->
+    <script src="js/index_02.js"></script>
+</body>
+</html>
